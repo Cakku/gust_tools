@@ -24,6 +24,7 @@
     <ClCompile Include="..\util.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\gust_ebm.h" />
     <ClInclude Include="..\parson.h" />
     <ClInclude Include="..\utf8.h" />
     <ClInclude Include="..\util.h" />

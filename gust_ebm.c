@@ -25,6 +25,7 @@
 #include "utf8.h"
 #include "util.h"
 #include "parson.h"
+#include "gust_ebm.h"
 
 #define JSON_VERSION            2
 #define MAX_STRING_SIZE         2048
@@ -78,7 +79,7 @@ int main_utf8(int argc, char** argv)
     return 0;
 }
 
-convert_json(char* input_path)
+int convert_json(char* input_path)
 {
     int r = -1;
     uint8_t* buf = NULL;
@@ -180,7 +181,7 @@ out:
     return r;
 }
 
-convert_ebm(char* input_path)
+int convert_ebm(char* input_path)
 {
     uint8_t* buf = NULL;
     char* ebm_message, path[PATH_MAX];

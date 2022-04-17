@@ -31,5 +31,8 @@
     <ClInclude Include="..\utf8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\gust_ebm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
